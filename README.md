@@ -1,7 +1,6 @@
 # JumiaApp
 
-1-technologies Used 
- POM Pattern - TesTNG- MAVEN- Data-Driven -Java
+Technologies Used ===> (POM Pattern - TesTNG- MAVEN- Data-Driven -Java)
 
 ====>Step to Run Task 
 1- Download Script From GitHub Url
