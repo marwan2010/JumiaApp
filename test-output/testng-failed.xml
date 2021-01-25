@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.Add_product_to_cart_Test">
+        <methods>
+          <include name="Open_Categories_Dropdown"/>
+          <include name="Select_Product_And_Add_to_Cart"/>
+          <include name="Open_cart_And_view_added_products"/>
+          <include name="browsersetup"/>
+        </methods>
+      </class> <!-- tests.Add_product_to_cart_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

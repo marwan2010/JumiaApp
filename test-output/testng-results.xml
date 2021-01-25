@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31479" started-at="2021-01-25T10:33:53Z" finished-at="2021-01-25T10:34:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31479" started-at="2021-01-25T10:33:53Z" finished-at="2021-01-25T10:34:24Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="Test_valid_login()[pri:0, instance:tests.LoginTest@7ea37dbf]" name="Test_valid_login" duration-ms="3762" started-at="2021-01-25T10:34:08Z" finished-at="2021-01-25T10:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_valid_login -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.Add_product_to_cart_Test">
+        <test-method status="PASS" signature="Open_Categories_Dropdown()[pri:0, instance:tests.Add_product_to_cart_Test@4b44655e]" name="Open_Categories_Dropdown" is-config="true" duration-ms="2514" started-at="2021-01-25T10:34:12Z" finished-at="2021-01-25T10:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Categories_Dropdown -->
+        <test-method status="PASS" signature="Select_Product_And_Add_to_Cart()[pri:0, instance:tests.Add_product_to_cart_Test@4b44655e]" name="Select_Product_And_Add_to_Cart" duration-ms="6185" started-at="2021-01-25T10:34:15Z" finished-at="2021-01-25T10:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Product_And_Add_to_Cart -->
+        <test-method status="PASS" signature="Open_cart_And_view_added_products()[pri:1, instance:tests.Add_product_to_cart_Test@4b44655e]" name="Open_cart_And_view_added_products" duration-ms="3393" started-at="2021-01-25T10:34:21Z" finished-at="2021-01-25T10:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_cart_And_view_added_products -->
+      </class> <!-- tests.Add_product_to_cart_Test -->
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="browsersetup()[pri:0, instance:tests.RegistrationTest@2aa3cd93]" name="browsersetup" is-config="true" duration-ms="9676" started-at="2021-01-25T10:33:43Z" finished-at="2021-01-25T10:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:tests.RegistrationTest@2aa3cd93]" name="OpenBrowser" is-config="true" duration-ms="2176" started-at="2021-01-25T10:33:53Z" finished-at="2021-01-25T10:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Open_Registration_Page()[pri:0, instance:tests.RegistrationTest@2aa3cd93]" name="Open_Registration_Page" duration-ms="3055" started-at="2021-01-25T10:33:55Z" finished-at="2021-01-25T10:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Registration_Page -->
+        <test-method status="PASS" signature="Test_valid_Registration(java.lang.String)[pri:0, instance:tests.RegistrationTest@2aa3cd93]" name="Test_valid_Registration" duration-ms="4774" started-at="2021-01-25T10:34:01Z" data-provider="ExcelData" finished-at="2021-01-25T10:34:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email1000@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_valid_Registration -->
+        <test-method status="PASS" signature="Test_valid_Registration(java.lang.String)[pri:0, instance:tests.RegistrationTest@2aa3cd93]" name="Test_valid_Registration" duration-ms="2613" started-at="2021-01-25T10:34:06Z" data-provider="ExcelData" finished-at="2021-01-25T10:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email2000@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_valid_Registration -->
+      </class> <!-- tests.RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
